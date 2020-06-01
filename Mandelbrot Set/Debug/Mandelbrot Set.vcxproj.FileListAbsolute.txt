@@ -1,0 +1,2 @@
+C:\Users\SrTempest\Desktop\C++ Programming\Mandelbrot Set\Debug\Mandelbrot Set.exe
+C:\Users\SrTempest\Desktop\C++ Programming\Mandelbrot Set\Debug\Mandelbrot Set.pdb
