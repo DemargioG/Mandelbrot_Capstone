@@ -13,15 +13,15 @@ https://visualstudio.microsoft.com/
 
 ## Files and Classes
 
--Tutorial.cpp
+- Tutorial.cpp
   This file was from a tutorial which I used as my foundation for my program. Link to the tutorial below.
   https://medium.com/farouk-ounanes-home-on-the-internet/mandelbrot-set-in-c-from-scratch-c7ad6a1bf2d9
   This file contains an easy to understand Mandlebrot Image Generator. Should this file be ran, it will save a ppm image in the source file of fractal image with Red out lines around it. However, this code is all commented out so only code I have written is compiled. 
   
--Image.cpp
+- Image.cpp
   This file contains the Main(). Here, the image size is set, a new image is created, tasks are created for calculating the escape time of each pixel over an entire row. Then finally the information is written to the image, pixel by pixel.
     
--Pixel.h
+- Pixel.h
   This file contains the Class Pixel. This class hold all the information of a pixel such as its coordinate and RGB. This class also contains functions used to calculate the Escape Time of the Pixel. Some of the equations found here were created by Paul Silisteanu. He also created a tutorial for Mandelbrot Generators, link below.
   https://solarianprogrammer.com/2013/02/28/mandelbrot-set-cpp-11/
   
@@ -59,8 +59,8 @@ https://visualstudio.microsoft.com/
   The template class Window<T> uses many template functions.
   The template is declared in Line 10 of Window.h.
   
-  - The project uses multithreading:
-    The program is given the ability to use multiple threads in Line 42 of Image.cpp
+- The project uses multithreading:
+  The program is given the ability to use multiple threads in Line 42 of Image.cpp
     
-  - A mutex or lock is used in the project:
-    In PixelQueue.h, Line 42, a lock is used to prevent other threads from accessing the _pixelQueue while it is in use.
+- A mutex or lock is used in the project:
+  In PixelQueue.h, Line 42, a lock is used to prevent other threads from accessing the _pixelQueue while it is in use.
